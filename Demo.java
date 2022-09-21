@@ -1,0 +1,21 @@
+abstract  class Demo 
+{
+abstract public void test();
+}
+class Sample extends Demo
+{
+	public void test()
+	{
+		System.out.println("Test Complited");
+}
+}
+class Mainclass
+{
+	public static void main(String[]args)
+	{
+		System.out.println("Main starts");
+		new Sample().test();
+		System.out.println("Main ends");
+
+}
+}
